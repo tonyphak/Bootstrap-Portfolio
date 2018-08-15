@@ -34,12 +34,27 @@
         * {
             font-family: 'Georgia', Times, Times New Roman, serif;
         }
-        .foot{
-            color:#ccc;
+
+        .foot {
+            color: #ccc;
         }
 
-        .footer{
+        .footer {
             border-top: solid #4aaaa5 5px;
+        }
+
+        #logo {
+            float: left;
+            width: 325px;
+            height: 90px;
+            font-family: Georgia, Times, "Times New Roman", serif;
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 90px;
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+            background: #4aaaa5;
         }
     </style>
 
@@ -47,10 +62,10 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light border sticky-top">
-        <div class="container col-md-7">
-            <div class="name">Tony Phakasoum</div>
+        <div class="container col-md-8">
+            <a href="index.html" id="logo">Tony Phakasoum</a>
             <div class="navbar-right" id="navbarNav">
-                <ul class="navbar-nav col-md-5">
+                <ul class="navbar-nav col-md-4">
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">About</a>
                     </li>
@@ -67,18 +82,18 @@
 
     <div class="container mt-4 bg-white col-md-7 p-5">
         <div class="row">
-            <div class="page-header col-lg-12">
+            <div class="page-header col-md-12">
                 <h1 class="display-4 portfolio"> Portfolio</h1>
                 <hr class="my-4">
             </div>
-            <div class="card-deck col-lg-12">
+            <div class="card-deck col-md-10">
                 <div class="card col-md-4 text-center">
                     <img class="card-img-top" src="assets/images/burger.jpg" alt="burger">
                     <div class="card-body">
                         <h5 class="card-title">Foodie Section</h5>
                     </div>
                 </div>
-                <div class="card col-lg-4 text-center">
+                <div class="card col-md-4 text-center">
                     <img class="card-img-top" src="assets/images/placeimg_400_400_grayscale_tech.jpg" alt="ipad">
                     <div class="card-body">
                         <h5 class="card-title">Tech Section</h5>
@@ -87,7 +102,7 @@
             </div>
         </div>
         <div class="row mt-4">
-            <div class="card-deck col-lg-12">
+            <div class="card-deck col-md-10">
                 <div class="card col-md-4 text-center">
                     <img class="card-img-top" src="assets/images/travel.jpg" alt="golden gate">
                     <div class="card-body">
@@ -103,7 +118,7 @@
             </div>
         </div>
         <div class="row mt-4">
-            <div class="card-deck col-lg-12">
+            <div class="card-deck col-md-10">
                 <div class="card col-md-4 text-center">
                     <img class="card-img-top" src="assets/images/placeimg_400_400_sepia_nature.jpg" alt="golden gate">
                     <div class="card-body">
@@ -112,8 +127,8 @@
                 </div>
             </div>
         </div>
-        <nav class="footer fixed-bottom navbar-dark bg-dark col-lg-12 text-center">
-                <p class="foot">Copyright@</p>
+        <nav class="footer fixed-bottom navbar-dark bg-dark col-md-12 text-center">
+            <p class="foot">Copyright@</p>
         </nav>
 </body>
 
